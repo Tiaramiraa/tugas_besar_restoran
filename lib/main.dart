@@ -16,6 +16,7 @@ class BelajarImages extends StatelessWidget {
           child: Image.asset('assets/images/logo1.jpg'),
         ),
       ),
-    ));
-  }
+      ),);
+      }
 }
+        
