@@ -17,6 +17,21 @@ class BelajarImages extends StatelessWidget {
         ),
       ),
       ),);
+      @override
+  Widget build(BuildContext context){
+    return new Scaffold(
+      AppBar: new AppBar(),
+      Body: new center(
+        child: new IconButton(
+          icon: new Icon(Icons.home, Size: 50.0,),
+          ),
+
+      ),
+    ),
+      ),);
+      }
+}
+
       }
 }
         
