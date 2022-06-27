@@ -17,6 +17,27 @@ class CartPage extends StatelessWidget {
           ),
         ),
       ),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 32.0, vertical: 64),
+        child: Container(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Consumer<MyProvider>(builder: (context, numbersOfOrders, child) {
+                return Text(
+                  'the total price is \$${numbersOfOrders.totalNumber}',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 26,
+                  ),
+                );
+              })
+            ],
+          ),
+        ),
       ),
-    }
+    );
+  }
 }
