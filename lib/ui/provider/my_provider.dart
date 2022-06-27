@@ -25,3 +25,25 @@ class MyProvider extends ChangeNotifier {
     _selectedBNBItem = index;
     notifyListeners();
   }
+
+  int get selectedBNBItem => _selectedBNBItem;
+
+  void setSelectedIndex(int i) {
+    _selectedIndexOfMenuList = i;
+    notifyListeners();
+  }
+
+  int get selectedIndexOfMenuList => _selectedIndexOfMenuList;
+
+  void increaseAmountOfFood() {
+    _amountOfFood++;
+    notifyListeners();
+  }
+
+  void decreaseAmountOfFood() {
+    _amountOfFood--;
+    notifyListeners();
+  }
+
+  int get amountOfFood => _amountOfFood;
+}
