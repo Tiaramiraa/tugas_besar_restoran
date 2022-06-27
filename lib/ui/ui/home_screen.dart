@@ -17,10 +17,7 @@ class HomePage extends StatelessWidget {
         describeFood: 'spicy chicken pasta',
         calories: '🔥 78 calories',
         pathOfImage: 'images/2.png',
-        price: '6.99',
-        details:
-            'chicken Dimsum Recipe is the delicious evening snack during the winters and monsoons',
-        ingredients: '🥩     🍅     🥕     🍆',
+        price: '10.000',
         time: '⏰ 30-40 min',
         stars: '⭐ 4.5'),
     FoodProduct(
@@ -28,10 +25,7 @@ class HomePage extends StatelessWidget {
         describeFood: 'Spicy chicken Dimsum',
         calories: '🔥 65 calories',
         pathOfImage: 'images/1.png',
-        price: '6.99',
-        details:
-            'chicken Dimsum Recipe is the delicious evening snack during the winters and monsoons',
-        ingredients: '🥩     🍅     🥕     🍆',
+        price: '10.000',
         time: '⏰ 20-30 min',
         stars: '⭐ 2.6'),
   ];
