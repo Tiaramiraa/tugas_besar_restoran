@@ -26,7 +26,7 @@ class CartPage extends StatelessWidget {
             children: [
               Consumer<MyProvider>(builder: (context, numbersOfOrders, child) {
                 return Text(
-                  'the total price is \$${numbersOfOrders.totalNumber}',
+                  'Rp. {numbersOfOrders.totalNumber}',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
